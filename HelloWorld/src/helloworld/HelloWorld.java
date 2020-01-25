@@ -19,8 +19,8 @@ public class HelloWorld {
         System.out.println("Hello World");
         System.out.println("Adding some more stuff");
         
-        OtherClass otherClass = new OtherClass();
-        otherClass.PrintMessage("I want to print something");
+        
+        OtherClass.PrintMessage("I want to print something");
     }
     
 }

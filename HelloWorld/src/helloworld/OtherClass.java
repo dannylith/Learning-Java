@@ -10,7 +10,7 @@ package helloworld;
  * @author DannyLaptop
  */
 public class OtherClass {
-    public void PrintMessage(String message){
+    public static void PrintMessage(String message){
         System.out.println(message);
     }
 }
