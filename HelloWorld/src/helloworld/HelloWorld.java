@@ -5,6 +5,8 @@
  */
 package helloworld;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author DannyLaptop
@@ -21,6 +23,18 @@ public class HelloWorld {
         
         
         OtherClass.PrintMessage("I want to print something");
+        
+        JOptionPane.showMessageDialog(null, "I created a popup box", "this is the title", 1, null);
+        Object[] options = {"Yes, please",
+                    "No way!"};
+int n = JOptionPane.showOptionDialog(null,
+    "Would you like green eggs and ham?",
+    "A Silly Question",
+    JOptionPane.YES_NO_OPTION,
+    JOptionPane.QUESTION_MESSAGE,
+    null,     //do not use a custom Icon
+    options,  //the titles of buttons
+    options[1]); //default button title
     }
     
 }
