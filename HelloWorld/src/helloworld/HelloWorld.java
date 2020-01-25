@@ -18,6 +18,9 @@ public class HelloWorld {
         // TODO code application logic here
         System.out.println("Hello World");
         System.out.println("Adding some more stuff");
+        
+        OtherClass otherClass = new OtherClass();
+        otherClass.PrintMessage("I want to print something");
     }
     
 }
