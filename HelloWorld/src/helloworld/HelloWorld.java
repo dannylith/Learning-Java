@@ -35,6 +35,13 @@ int n = JOptionPane.showOptionDialog(null,
     null,     //do not use a custom Icon
     options,  //the titles of buttons
     options[1]); //default button title
+
+        
+        System.out.println(Add2Numbers(1, 2));
+    }
+    
+    public static int Add2Numbers(int first, int second){
+        return first + second;
     }
     
 }
