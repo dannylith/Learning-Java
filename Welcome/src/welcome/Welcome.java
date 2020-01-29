@@ -5,6 +5,8 @@
  */
 package welcome;
 
+import javax.swing.JOptionPane;
+
 
 public class Welcome {
 
@@ -14,6 +16,9 @@ public class Welcome {
     public static void main(String[] args) {
         // display welcome message
         System.out.println("Welcome to Java");
+        
+        //display welcome message to ui
+        JOptionPane.showMessageDialog(null, "Welcome to Java");
     }
     
 }
